@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "autosellmod",
+  "version": "${version}",
+  "name": "AutoSell Mod",
+  "description": "DonutSMP icin otomatik /sell all komutu",
+  "authors": ["DonutSMP"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.autosellmod.AutoSellMod"
+    ],
+    "client": [
+      "com.autosellmod.client.AutoSellClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
